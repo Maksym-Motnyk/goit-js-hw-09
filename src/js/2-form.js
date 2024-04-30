@@ -28,7 +28,7 @@ form.addEventListener('input', () => {
 form.addEventListener('submit', e => {
   e.preventDefault();
   if (email.value.trim() === '' || message.value.trim() === '') {
-    alert('Будь ласка, заповніть всі поля форми!');
+    alert('Fill please all fields');
     return;
   }
   console.log({
